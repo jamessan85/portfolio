@@ -6,8 +6,8 @@ angular.module('RouteControllers', [])
     .controller('HomePage', function() {
         angular.element(document).ready(function() {
             $('#portfolio').click(function() {
-                $('.body-container1').slideDown(2000);
-            })
+                $('.body-container1').slideToggle(1000);
+            }) 
             $('.upbutton').click(function() {
                  $('.body-container1').slideUp(1000);
             })

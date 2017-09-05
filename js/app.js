@@ -14,8 +14,16 @@ angular.module('Portfolio').config(function($locationProvider, $routeProvider) {
         controller: 'HomePage'
 	})
 
-    .when('/portfolio', {
-        templateUrl: 'templates/portfolio.html',
+    .when('/projects/project1', {
+        templateUrl: 'templates/project1.html',
+    })
+
+    .when('/projects/project2', {
+        templateUrl: 'templates/project2.html',
+    })
+
+    .when('/projects/project3', {
+        templateUrl: 'templates/project3.html',
     })
 
 });    
